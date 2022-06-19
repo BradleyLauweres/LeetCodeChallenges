@@ -25,5 +25,8 @@ class LeetCode
         Console.WriteLine(challenges.TwoSum(nums,9));
         Console.WriteLine(challenges.IsPalindrome(505));
 
+        Console.WriteLine(challenges.AddBinary("11", "1"));
+        Console.WriteLine(challenges.AddBinary("1010", "1011"));
+
     }
 }
