@@ -21,5 +21,9 @@ class LeetCode
         Console.WriteLine(challenges.IntToRoman(58));
         Console.WriteLine(challenges.IntToRoman(1994));
 
+        int[] nums = { 2, 7, 11, 15 };
+        Console.WriteLine(challenges.TwoSum(nums,9));
+        Console.WriteLine(challenges.IsPalindrome(505));
+
     }
 }

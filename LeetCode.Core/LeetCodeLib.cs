@@ -58,5 +58,58 @@
 
         }
 
+        //Two Sum
+        //Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+        //You may assume that each input would have exactly one solution, and you may not use the same element twice.
+        //You can return the answer in any order.
+
+        public int[] TwoSum(int[] nums, int target)
+        {
+            int[] result = new int[1];
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                for (int j = i; j < nums.Length; j++)
+                {
+                    if (nums[i] + nums[j] == target)
+                    {
+                        result[i] = Array.IndexOf(nums,j);
+                    }
+
+                }
+            }
+
+            return result;
+
+        }
+
+        //Int to english words
+        // example:
+        // Input: num = 123
+        // Output: "One Hundred Twenty Three"
+
+        public string NumberToWords(int num)
+        {
+            string result = string.Empty;
+            return string.Empty;
+        }
+
+        public bool IsPalindrome(int x)
+        {
+            var stringValue = x.ToString();
+            string reverse = "";
+            for (int i = stringValue.Length-1; i >= 0; i--)
+            {
+                reverse += stringValue[i];
+            }
+
+            if (stringValue == reverse)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
     }
 }
