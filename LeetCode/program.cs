@@ -9,9 +9,17 @@ class LeetCode
 {
     static void Main(string[] args)
     {
-        LeetCodeLib test = new LeetCodeLib();
-        Console.WriteLine(test.RomanToInt("III"));
-        Console.WriteLine(test.RomanToInt("LVIII"));
-        Console.WriteLine(test.RomanToInt("MCMXCIV"));
+        LeetCodeLib challenges = new LeetCodeLib();
+
+        //Roman To Int
+        Console.WriteLine(challenges.RomanToInt("III"));
+        Console.WriteLine(challenges.RomanToInt("LVIII"));
+        Console.WriteLine(challenges.RomanToInt("MCMXCIV"));
+
+        //Int to Roman
+        Console.WriteLine(challenges.IntToRoman(3));
+        Console.WriteLine(challenges.IntToRoman(58));
+        Console.WriteLine(challenges.IntToRoman(1994));
+
     }
 }

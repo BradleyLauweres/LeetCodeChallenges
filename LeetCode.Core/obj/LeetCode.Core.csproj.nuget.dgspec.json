@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCode.Core\\LeetCode.Core.csproj": {}
+    "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode.Core\\LeetCode.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCode.Core\\LeetCode.Core.csproj": {
+    "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode.Core\\LeetCode.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCode.Core\\LeetCode.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode.Core\\LeetCode.Core.csproj",
         "projectName": "LeetCode.Core",
-        "projectPath": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCode.Core\\LeetCode.Core.csproj",
+        "projectPath": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode.Core\\LeetCode.Core.csproj",
         "packagesPath": "C:\\Users\\Bradley Lauweres\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCode.Core\\obj\\",
+        "outputPath": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

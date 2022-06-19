@@ -33,9 +33,29 @@
             return total;
         }
 
-        public int IntToRoman(string s)
+        //Write a method that converts decimal numbers to Romannumbers 
+
+        public string IntToRoman(int s)
         {
-            return 0;
+            string result = string.Empty;
+            string[] romanLetters = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I" };
+            int[] numbers = {1000,900,500,400,100, 90,50,40,10,9,5,4,1 };
+
+            int i = 0;
+            while (s != 0)
+            {
+                if (s >= numbers[i])
+                {
+                    s -= numbers[i];
+                    result += romanLetters[i];
+                }
+                else
+                {
+                    i++;
+                }
+            }
+            return result;
+
         }
 
     }
