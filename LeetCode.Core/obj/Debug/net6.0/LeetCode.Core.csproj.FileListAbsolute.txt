@@ -1,0 +1,12 @@
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\bin\Debug\net6.0\LeetCode.Core.deps.json
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\bin\Debug\net6.0\LeetCode.Core.dll
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\bin\Debug\net6.0\LeetCode.Core.pdb
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\obj\Debug\net6.0\LeetCode.Core.csproj.AssemblyReference.cache
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\obj\Debug\net6.0\LeetCode.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\obj\Debug\net6.0\LeetCode.Core.AssemblyInfoInputs.cache
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\obj\Debug\net6.0\LeetCode.Core.AssemblyInfo.cs
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\obj\Debug\net6.0\LeetCode.Core.csproj.CoreCompileInputs.cache
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\obj\Debug\net6.0\LeetCode.Core.dll
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\obj\Debug\net6.0\refint\LeetCode.Core.dll
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\obj\Debug\net6.0\LeetCode.Core.pdb
+C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCode.Core\obj\Debug\net6.0\ref\LeetCode.Core.dll
