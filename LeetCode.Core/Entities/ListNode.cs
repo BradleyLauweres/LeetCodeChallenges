@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Core.Entities
+namespace LeetCodeTest.Core.Entities
 {
     public class ListNode
     {
