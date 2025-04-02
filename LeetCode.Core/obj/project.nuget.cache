@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "awL+DKiJEA5UCeDb0d+RTRIwoMpBcSzE39oTka/1Pu9gDbPvJtnbJXDWh9A4ig+xLYRI+jldXmY5m6mas2U/sA==",
+  "dgSpecHash": "+mV49h/Edss=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode.Core\\LeetCode.Core.csproj",
+  "projectFilePath": "C:\\Coding\\C#\\LeetCodeChallenges\\LeetCode.Core\\LeetCode.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

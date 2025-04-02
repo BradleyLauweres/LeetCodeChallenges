@@ -27,25 +27,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bradley Lauweres\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Lapto\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode\\LeetCode.csproj",
+      "projectUniqueName": "C:\\Coding\\C#\\LeetCodeChallenges\\LeetCode\\LeetCode.csproj",
       "projectName": "LeetCode",
-      "projectPath": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode\\LeetCode.csproj",
-      "packagesPath": "C:\\Users\\Bradley Lauweres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode\\obj\\",
+      "projectPath": "C:\\Coding\\C#\\LeetCodeChallenges\\LeetCode\\LeetCode.csproj",
+      "packagesPath": "C:\\Users\\Lapto\\.nuget\\packages\\",
+      "outputPath": "C:\\Coding\\C#\\LeetCodeChallenges\\LeetCode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Bradley Lauweres\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Lapto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode.Core\\LeetCode.Core.csproj": {
-              "projectPath": "C:\\Users\\Bradley Lauweres\\Desktop\\Coding\\Summer2022\\LeetCodeChallenges\\LeetCode.Core\\LeetCode.Core.csproj"
+            "C:\\Coding\\C#\\LeetCodeChallenges\\LeetCode.Core\\LeetCode.Core.csproj": {
+              "projectPath": "C:\\Coding\\C#\\LeetCodeChallenges\\LeetCode.Core\\LeetCode.Core.csproj"
             }
           }
         }
@@ -68,7 +68,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net6.0": {
@@ -79,7 +85,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -88,7 +95,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

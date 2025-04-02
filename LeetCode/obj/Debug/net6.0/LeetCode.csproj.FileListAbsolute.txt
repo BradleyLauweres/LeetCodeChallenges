@@ -34,3 +34,22 @@ C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCodeChallenges\LeetCode\
 C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.pdb
 C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.genruntimeconfig.cache
 C:\Users\Bradley Lauweres\Desktop\Coding\Summer2022\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\ref\LeetCode.dll
+C:\Coding\C#\LeetCodeChallenges\LeetCode\bin\Debug\net6.0\LeetCode.exe
+C:\Coding\C#\LeetCodeChallenges\LeetCode\bin\Debug\net6.0\LeetCode.deps.json
+C:\Coding\C#\LeetCodeChallenges\LeetCode\bin\Debug\net6.0\LeetCode.runtimeconfig.json
+C:\Coding\C#\LeetCodeChallenges\LeetCode\bin\Debug\net6.0\LeetCode.dll
+C:\Coding\C#\LeetCodeChallenges\LeetCode\bin\Debug\net6.0\LeetCode.pdb
+C:\Coding\C#\LeetCodeChallenges\LeetCode\bin\Debug\net6.0\LeetCode.Core.dll
+C:\Coding\C#\LeetCodeChallenges\LeetCode\bin\Debug\net6.0\LeetCode.Core.pdb
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.csproj.AssemblyReference.cache
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.AssemblyInfoInputs.cache
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.AssemblyInfo.cs
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.csproj.CoreCompileInputs.cache
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.sourcelink.json
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.csproj.Up2Date
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.dll
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\refint\LeetCode.dll
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.pdb
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\LeetCode.genruntimeconfig.cache
+C:\Coding\C#\LeetCodeChallenges\LeetCode\obj\Debug\net6.0\ref\LeetCode.dll

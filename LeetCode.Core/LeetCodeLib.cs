@@ -1,4 +1,6 @@
-﻿namespace LeetCodeName.Core
+﻿using LeetCode.Core.Entities;
+
+namespace LeetCodeName.Core
 {
     public class LeetCodeLib
     {
@@ -137,6 +139,65 @@
             while (i >= 0)
                 res = res * 10 + sum[i--];
             return res.ToString();
+        }
+
+        public ListNode MergeTwoLists(ListNode list1, ListNode list2)
+        {
+            ListNode SortedList = new ListNode();
+            return SortedList;
+        }
+
+        public bool IsValid(string s)
+        {
+            //WE USED A STACK DATASTRUCTURE THE PRINCIPE IS IF U FIND A OPENING BRACKET U PUSH IT ONTO THE STACK IF U FIND A CLOSING BRACKET U LOOK
+            //INTO THE STACK TO SEE IF THE LAST PUSHED ITEM IS UR MATCHING BRACKET
+            Stack<char> stack = new Stack<char>();
+           
+            foreach (char c in s)
+            {
+                if(c == '(')
+                    stack.Push(c);
+                else if (c == '[')
+                    stack.Push(c);
+                else if(c == '{')
+                    stack.Push(c);
+                
+                if(stack.Count == 0)
+                    return false;
+                else if(c == ')')
+                {
+                    if(stack.Peek().ToString() == "(")
+                    {
+                        stack.Pop();
+                    }
+                    else
+                        return false;
+                }
+                else if(c == ']')
+                {
+                    if(stack.Peek().ToString() == "[")
+                    {
+                        stack.Pop();
+                    }
+                    else
+                        return false;
+                }
+                else if(c == '}')
+                {
+                    if(stack.Peek().ToString() == "{")
+                    {
+                        stack.Pop();
+                    }
+                    else
+                        return false;
+                }
+                
+            }
+
+            if (stack.Count != 0)
+                return false;
+
+            return true;
         }
 
     }

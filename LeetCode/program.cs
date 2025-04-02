@@ -28,5 +28,15 @@ class LeetCode
         Console.WriteLine(challenges.AddBinary("11", "1"));
         Console.WriteLine(challenges.AddBinary("1010", "1011"));
 
+        //Console.WriteLine(challenges.IsValid("()"));
+        Console.WriteLine(challenges.IsValid("()"));          //true
+        Console.WriteLine(challenges.IsValid("()[]{}"));      //true
+        Console.WriteLine(challenges.IsValid("(]"));          //false
+        Console.WriteLine(challenges.IsValid("([])"));        //true
+        Console.WriteLine(challenges.IsValid("([)]"));        //false
+        Console.WriteLine(challenges.IsValid("(){}}{"));      //false
+        Console.WriteLine(challenges.IsValid("({{{{}}}))"));  //false
+
+
     }
 }
