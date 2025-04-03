@@ -19,6 +19,7 @@ class LeetCode
         AddBinary(challenges);
         IsValid(challenges);
         MergeTwoLists(challenges);
+        RemoveDuplicates(challenges);
     }
 
     static void RomanToInt(LeetCodeLib challenges)
@@ -61,8 +62,16 @@ class LeetCode
     {
         ListNode listNode = new ListNode(1,new ListNode(2,new ListNode(4)));
         ListNode listNode1 = new ListNode(1,new ListNode(3,new ListNode(4)));
-        Console.WriteLine(challenges.MergeTwoLists(listNode, listNode1).ToString());
+        Console.WriteLine(challenges.MergeTwoLists(listNode, listNode1));
        
+    }
+    static void RemoveDuplicates(LeetCodeLib challenges)
+    {
+        int[] k = new int[10]
+        {
+            0,0,1,1,1,2,2,3,3,4
+        };
+        challenges.RemoveDuplicates(k);
     }
 
 }

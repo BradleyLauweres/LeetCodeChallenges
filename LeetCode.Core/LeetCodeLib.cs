@@ -1,4 +1,5 @@
 ﻿using LeetCodeTest.Core.Entities;
+using System.Collections;
 
 namespace LeetCodeName.Core
 {
@@ -143,6 +144,7 @@ namespace LeetCodeName.Core
 
         public ListNode MergeTwoLists(ListNode list1, ListNode list2)
         {
+            //A PERFECT EXAMPLE TO USE RECURSION SINCE U ALWAYS HAVE TO GO INTO THE .NEXT + REST WAS SIMPLE JUST CHECKING VALUES
             if (list1 == null) return list2;
             if (list2 == null) return list1;
 
@@ -155,6 +157,26 @@ namespace LeetCodeName.Core
             list2.next = MergeTwoLists(list1,list2.next);
             return list2;
 
+        }
+
+        public int RemoveDuplicates(int[] nums)
+        {
+            //Input: nums = [1, 1, 2]
+            //Output: 2, nums = [1, 2, _]
+
+            int total = 0;
+            int currentNumber = int.MinValue;
+
+            foreach (int num in nums)
+            {
+                if(currentNumber != num)
+                {
+                    total++;
+                    nums[total-1] = num;
+                };
+                currentNumber = num;
+            }
+            return total;
         }
 
         public bool IsValid(string s)
