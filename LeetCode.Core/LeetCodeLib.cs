@@ -1,4 +1,5 @@
 ﻿using LeetCodeTest.Core.Entities;
+using System;
 using System.Collections;
 
 namespace LeetCodeName.Core
@@ -183,12 +184,6 @@ namespace LeetCodeName.Core
         {
             Int16 total = 0;
 
-            for (Int16 i = 0; i < nums.Length; i++)
-            {
-                
-            }
-
-
             foreach (Int16 num in nums)
             {
                 if (num != val)
@@ -257,5 +252,37 @@ namespace LeetCodeName.Core
             return true;
         }
 
+        public int StrStr(string haystack, string needle)
+        {
+            int index = haystack.IndexOf(needle, StringComparison.OrdinalIgnoreCase);
+            return index;
+        }
+
+        public int SearchInsert(int[] nums, int target)
+        {
+            int answer = 0;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == target)
+                    answer = i;
+            }
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] > target)
+                {
+                    answer = i;
+                }
+            }
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (i == nums.Length-1 )
+                    answer = i + 1;
+            }
+
+            return answer;
+        }
     }
 }

@@ -12,15 +12,17 @@ class LeetCode
     {
         LeetCodeLib challenges = new LeetCodeLib();
 
-        RomanToInt(challenges);
-        IntToRoman(challenges);
-        TwoSum(challenges);
-        IsPalindrome(challenges);
-        AddBinary(challenges);
-        IsValid(challenges);
-        MergeTwoLists(challenges);
-        RemoveDuplicates(challenges);
-        RemoveElement(challenges);
+        //RomanToInt(challenges);
+        //IntToRoman(challenges);
+        //TwoSum(challenges);
+        //IsPalindrome(challenges);
+        //AddBinary(challenges);
+        //IsValid(challenges);
+        //MergeTwoLists(challenges);
+        //RemoveDuplicates(challenges);
+        //RemoveElement(challenges);
+        FirstOccurence(challenges);
+        SeachInsert(challenges);
     }
 
     static void RomanToInt(LeetCodeLib challenges)
@@ -87,6 +89,21 @@ class LeetCode
             0,1,2,2,3,0,4,2
         };
         Console.WriteLine(challenges.RemoveElement(j,2));
+    }
+    static void FirstOccurence(LeetCodeLib challenges)
+    {
+        string s1 = "leetcode";
+        string s2 = "leeto";
+        Console.WriteLine(challenges.StrStr(s1,s2));
+    }
+    static void SeachInsert(LeetCodeLib challenges)
+    {
+        int[] nums = new int[4]
+        {
+            1,3,5,6
+        };
+        Console.WriteLine(challenges.SearchInsert(nums,5));
+        Console.WriteLine(challenges.SearchInsert(nums,7));
     }
 
 }
