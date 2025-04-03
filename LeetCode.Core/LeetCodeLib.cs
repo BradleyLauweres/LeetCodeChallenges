@@ -179,6 +179,31 @@ namespace LeetCodeName.Core
             return total;
         }
 
+        public int RemoveElement(int[] nums, int val)
+        {
+            Int16 total = 0;
+
+            for (Int16 i = 0; i < nums.Length; i++)
+            {
+                
+            }
+
+
+            foreach (Int16 num in nums)
+            {
+                if (num != val)
+                {
+                  
+                    total++;
+                    nums[total - 1] = num;
+                    
+                }
+
+            }
+
+            return total;
+        }
+
         public bool IsValid(string s)
         {
             //WE USED A STACK DATASTRUCTURE THE PRINCIPE IS IF U FIND A OPENING BRACKET U PUSH IT ONTO THE STACK IF U FIND A CLOSING BRACKET U LOOK

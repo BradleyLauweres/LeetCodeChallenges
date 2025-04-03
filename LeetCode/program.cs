@@ -20,6 +20,7 @@ class LeetCode
         IsValid(challenges);
         MergeTwoLists(challenges);
         RemoveDuplicates(challenges);
+        RemoveElement(challenges);
     }
 
     static void RomanToInt(LeetCodeLib challenges)
@@ -72,6 +73,20 @@ class LeetCode
             0,0,1,1,1,2,2,3,3,4
         };
         challenges.RemoveDuplicates(k);
+    }
+    static void RemoveElement(LeetCodeLib challenges)
+    {
+        int[] k = new int[4]
+        {
+            3,2,2,3
+        };
+        Console.WriteLine(challenges.RemoveElement(k, 3));
+
+        int[] j = new int[8]
+        {
+            0,1,2,2,3,0,4,2
+        };
+        Console.WriteLine(challenges.RemoveElement(j,2));
     }
 
 }
