@@ -201,8 +201,7 @@ namespace LeetCodeName.Core
 
         public bool IsValid(string s)
         {
-            //WE USED A STACK DATASTRUCTURE THE PRINCIPE IS IF U FIND A OPENING BRACKET U PUSH IT ONTO THE STACK IF U FIND A CLOSING BRACKET U LOOK
-            //INTO THE STACK TO SEE IF THE LAST PUSHED ITEM IS UR MATCHING BRACKET
+            
             Stack<char> stack = new Stack<char>();
            
             foreach (char c in s)
@@ -260,29 +259,58 @@ namespace LeetCodeName.Core
 
         public int SearchInsert(int[] nums, int target)
         {
-            int answer = 0;
-
             for (int i = 0; i < nums.Length; i++)
             {
                 if (nums[i] == target)
-                    answer = i;
+                    return i;
             }
 
             for (int i = 0; i < nums.Length; i++)
             {
                 if (nums[i] > target)
                 {
-                    answer = i;
+                    return i;
                 }
             }
 
             for (int i = 0; i < nums.Length; i++)
             {
                 if (i == nums.Length-1 )
-                    answer = i + 1;
+                    return i + 1;
             }
 
-            return answer;
+            return -1;
+        }
+
+        public int LengthOfLastWord(string s)
+        {
+            var charArr = s.ToCharArray();
+            var reversedString = charArr.Reverse();
+            string result = string.Empty;
+            bool isWord = false;
+
+            if(!s.Contains(' ', StringComparison.OrdinalIgnoreCase))
+                return s.Length;
+
+            foreach (char c in reversedString)
+            {
+                if (isWord && c == ' ')
+                    return result.Length;
+
+                if(c != ' ')
+                {
+                    isWord = true;
+                }
+
+                if (isWord)
+                {
+                    result += c;
+                }
+
+                    
+            }
+
+            return result.Length;
         }
     }
 }

@@ -23,6 +23,7 @@ class LeetCode
         //RemoveElement(challenges);
         FirstOccurence(challenges);
         SeachInsert(challenges);
+        LengthOfLastWord(challenges);
     }
 
     static void RomanToInt(LeetCodeLib challenges)
@@ -104,6 +105,10 @@ class LeetCode
         };
         Console.WriteLine(challenges.SearchInsert(nums,5));
         Console.WriteLine(challenges.SearchInsert(nums,7));
+    }
+    static void LengthOfLastWord(LeetCodeLib challenges)
+    {
+        Console.WriteLine(challenges.LengthOfLastWord("a "));
     }
 
 }
