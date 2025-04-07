@@ -24,6 +24,7 @@ class LeetCode
         FirstOccurence(challenges);
         SeachInsert(challenges);
         LengthOfLastWord(challenges);
+        PlusOne(challenges);
     }
 
     static void RomanToInt(LeetCodeLib challenges)
@@ -109,6 +110,14 @@ class LeetCode
     static void LengthOfLastWord(LeetCodeLib challenges)
     {
         Console.WriteLine(challenges.LengthOfLastWord("a "));
+    }
+    static void PlusOne(LeetCodeLib challenges)
+    {
+        int[] digits = new int[]
+        {
+            9,9
+        };
+        Console.WriteLine(challenges.PlusOne(digits));
     }
 
 }

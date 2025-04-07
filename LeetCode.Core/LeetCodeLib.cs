@@ -10,10 +10,10 @@ namespace LeetCodeName.Core
 
         public int RomanToInt(string s)
         {
-            var total = 0; 
+            var total = 0;
             var num = 0;
 
-            for(int i = s.Length -1; i >= 0; i--)
+            for (int i = s.Length - 1; i >= 0; i--)
             {
                 switch (s[i])
                 {
@@ -26,13 +26,13 @@ namespace LeetCodeName.Core
                     case 'M': num = 1000; break;
                 }
 
-                if (4 * num < total) 
+                if (4 * num < total)
                     total -= num;
-                else 
+                else
                     total += num;
             }
 
-            
+
 
             return total;
         }
@@ -42,8 +42,8 @@ namespace LeetCodeName.Core
         public string IntToRoman(int s)
         {
             string result = string.Empty;
-            string[] romanLetters = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I" };
-            int[] numbers = {1000,900,500,400,100, 90,50,40,10,9,5,4,1 };
+            string[] romanLetters = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
+            int[] numbers = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
 
             int i = 0;
             while (s != 0)
@@ -77,7 +77,7 @@ namespace LeetCodeName.Core
                 {
                     if (nums[i] + nums[j] == target)
                     {
-                        result[i] = Array.IndexOf(nums,j);
+                        result[i] = Array.IndexOf(nums, j);
                     }
 
                 }
@@ -102,7 +102,7 @@ namespace LeetCodeName.Core
         {
             var stringValue = x.ToString();
             string reverse = "";
-            for (int i = stringValue.Length-1; i >= 0; i--)
+            for (int i = stringValue.Length - 1; i >= 0; i--)
             {
                 reverse += stringValue[i];
             }
@@ -149,13 +149,13 @@ namespace LeetCodeName.Core
             if (list1 == null) return list2;
             if (list2 == null) return list1;
 
-            if(list1.val < list2.val)
+            if (list1.val < list2.val)
             {
-                list1.next = MergeTwoLists(list1.next,list2);
+                list1.next = MergeTwoLists(list1.next, list2);
                 return list1;
             }
 
-            list2.next = MergeTwoLists(list1,list2.next);
+            list2.next = MergeTwoLists(list1, list2.next);
             return list2;
 
         }
@@ -170,11 +170,12 @@ namespace LeetCodeName.Core
 
             foreach (int num in nums)
             {
-                if(currentNumber != num)
+                if (currentNumber != num)
                 {
                     total++;
-                    nums[total-1] = num;
-                };
+                    nums[total - 1] = num;
+                }
+                ;
                 currentNumber = num;
             }
             return total;
@@ -188,10 +189,10 @@ namespace LeetCodeName.Core
             {
                 if (num != val)
                 {
-                  
+
                     total++;
                     nums[total - 1] = num;
-                    
+
                 }
 
             }
@@ -201,48 +202,48 @@ namespace LeetCodeName.Core
 
         public bool IsValid(string s)
         {
-            
+
             Stack<char> stack = new Stack<char>();
-           
+
             foreach (char c in s)
             {
-                if(c == '(')
+                if (c == '(')
                     stack.Push(c);
                 else if (c == '[')
                     stack.Push(c);
-                else if(c == '{')
+                else if (c == '{')
                     stack.Push(c);
-                
-                if(stack.Count == 0)
+
+                if (stack.Count == 0)
                     return false;
-                else if(c == ')')
+                else if (c == ')')
                 {
-                    if(stack.Peek().ToString() == "(")
+                    if (stack.Peek().ToString() == "(")
                     {
                         stack.Pop();
                     }
                     else
                         return false;
                 }
-                else if(c == ']')
+                else if (c == ']')
                 {
-                    if(stack.Peek().ToString() == "[")
+                    if (stack.Peek().ToString() == "[")
                     {
                         stack.Pop();
                     }
                     else
                         return false;
                 }
-                else if(c == '}')
+                else if (c == '}')
                 {
-                    if(stack.Peek().ToString() == "{")
+                    if (stack.Peek().ToString() == "{")
                     {
                         stack.Pop();
                     }
                     else
                         return false;
                 }
-                
+
             }
 
             if (stack.Count != 0)
@@ -275,7 +276,7 @@ namespace LeetCodeName.Core
 
             for (int i = 0; i < nums.Length; i++)
             {
-                if (i == nums.Length-1 )
+                if (i == nums.Length - 1)
                     return i + 1;
             }
 
@@ -289,7 +290,7 @@ namespace LeetCodeName.Core
             string result = string.Empty;
             bool isWord = false;
 
-            if(!s.Contains(' ', StringComparison.OrdinalIgnoreCase))
+            if (!s.Contains(' ', StringComparison.OrdinalIgnoreCase))
                 return s.Length;
 
             foreach (char c in reversedString)
@@ -297,7 +298,7 @@ namespace LeetCodeName.Core
                 if (isWord && c == ' ')
                     return result.Length;
 
-                if(c != ' ')
+                if (c != ' ')
                 {
                     isWord = true;
                 }
@@ -306,11 +307,31 @@ namespace LeetCodeName.Core
                 {
                     result += c;
                 }
-
-                    
             }
 
             return result.Length;
         }
+
+        public int[] PlusOne(int[] digits)
+        {
+            for (int i = digits.Length - 1; i >= 0; i--)
+            {
+                if (digits[i] < 9)
+                {
+                    digits[i]++;
+                    return digits;
+                }
+
+                digits[i] = 0;
+            }
+
+            int[] result = new int[digits.Length + 1];
+            result[0] = 1;
+           
+            return result;
+        }
+
+
+
     }
 }
